@@ -11,7 +11,7 @@ def display_jogo(lista):
 
 def verifica_vencedor(lista):
     '''
-        Retorna 0 se o jogo acabou e 1 se o jogo prosssegue.
+        Retorna 0 se o jogo acabou e 1 se o jogo prossegue.
     '''
     for k in [0,3,6]:
         if lista[k] == lista[k+1] and lista[k+1] == lista[k+2]:
